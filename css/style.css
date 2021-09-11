@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif; 
+}
+body{
+    background-image: url('/images/bg.jpg');
+    filter: blur(8x);
+    -webkit-filter: blur(8x);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%;
+  }
+ #tab{
+       color: white;
+   }
+   #card{
+    background-color: rgba(27, 25, 27, 0.212) !important;
+    background:transparent; 
+    border-color: white;
+    top: 100px;
+    padding: 6%;
+     position: relative;
+     left:480%    
+} 
+#link{
+color: white;
+} 
+@media screen and (min-width:360px){
+  #card{
+    background-color: rgba(27, 25, 27, 0.212) !important;
+    background:transparent; 
+    border-color: white;
+    bottom: 400px;
+    padding: 6%;
+    left:1px;
+}
+#btn{
+  position: relative;
+  left: 150px;
+  right: 300px;
+  border-radius: 500px;
+  background-color: rgba(0, 132, 255, 0.397) !important;
+  width: 130px;
+ } 
+ }
+ @media screen and (min-width:375px){
+  #card{
+    background-color: rgba(27, 25, 27, 0.212) !important;
+    background:transparent; 
+    border-color: white;
+    bottom: 400px;
+    top: 150px;
+    padding: 6%;
+    left:1px;
+}
+#btn{
+  position: relative;
+  left: 150px;
+  right: 300px;
+   border-radius: 500px;
+  background-color: rgba(0, 132, 255, 0.397) !important;
+  width: 130px;
+ } 
+ }
+
+@media screen and (min-width:900px) {
+  #card{
+    background-color: rgba(27, 25, 27, 0.212) !important;
+    background:transparent; 
+    border-color: white;
+    bottom: 600px;
+    position: relative;
+    width: 600px;
+    left: 00px;
+    right: 500px;
+    padding: 60px;
+    top: 200px;
+    }
+    #btn{
+      position: relative;
+      left: 350px;
+      right: 0px;
+      border-radius: 500px;
+      background-color: rgba(0, 132, 255, 0.397) !important;
+     width:130px;
+     top:30px;
+} 
+}
+@media screen and (min-width:768px) {
+  #card{
+    background-color: rgba(27, 25, 27, 0.212) !important;
+    background:transparent; 
+    border-color: white;
+    bottom: 600px;
+     position: relative; 
+    width:600px;
+    padding: 60px;
+    top: 200px;
+    left:50px;
+    }
+    #btn{
+      position: relative;
+      left: 350px;
+      right: 0px;
+       border-radius: 500px;
+       background-color: rgba(0, 132, 255, 0.397) !important;
+     width: 130px;
+     top:30px;
+}}
+@media screen and (min-width:1280px) {
+  #card{
+    background-color: rgba(27, 25, 27, 0.212) !important;
+    background:transparent; 
+    border-color: white;
+    bottom: 600px;
+    position: relative;
+    width: 600px;
+    left: 550px;
+    right: 50px;
+    padding: 60px;
+    top: 200px;
+    }
+    #btn{
+      position: relative;
+      left: 350px;
+     right: 0px;
+     border-radius: 500px;
+     background-color: rgba(0, 132, 255, 0.397) !important;
+     width: 130px;
+     top:30px;
+} 
+}
+@media screen and (min-width:1920px) {
+  #card{
+    background-color: rgba(27, 25, 27, 0.212) !important;
+    background:transparent; 
+    border-color: white;
+    bottom: 600px;
+    position: relative;
+    width: 600px;
+    left: 850px;
+    right: 50px;
+    padding: 60px;
+    top: 200px;
+    }
+    #btn{
+      position: relative;
+      left: 350px;
+      right: 0px;
+      border-radius: 500px;
+      background-color: rgba(0, 132, 255, 0.397) !important;
+      width: 130px;
+      top:30px;
+  } }
