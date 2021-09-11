@@ -5,7 +5,7 @@
     font-family: 'Roboto',sans-serif; 
 }
 body{
-    background-image: url('images/bg.jpg');
+    background-image: url('./images/bg.jpg');
     filter: blur(8x);
     -webkit-filter: blur(8x);
     background-size: cover;
