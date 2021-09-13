@@ -5,9 +5,7 @@
     font-family: 'Roboto',sans-serif; 
 }
 body{
-    background-image: url('../images/bg.jpg');
-    filter: blur(8x);
-    -webkit-filter: blur(8x);
+    background-image: url('/images/bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -18,14 +16,16 @@ body{
        color: white;
    }
    #card{
-    background-color: rgba(27, 25, 27, 0.212) !important;
+    background-color: white !important;
     background:transparent; 
     border-color: white;
+    backdrop-filter: blur(18px);
     top: 100px;
     padding: 6%;
      position: relative;
      left:480%    
-} 
+}
+ 
 #link{
 color: white;
 } 
@@ -33,6 +33,7 @@ color: white;
   #card{
     background-color: rgba(27, 25, 27, 0.212) !important;
     background:transparent; 
+    filter: blur(px);
     border-color: white;
     bottom: 400px;
     padding: 6%;
@@ -156,3 +157,19 @@ color: white;
       width: 130px;
       top:30px;
   } }
+#input{
+  background:rgba(230, 225, 225, 0.226) !important;
+  
+  backdrop-filter: blur(10px);
+  color:#fff;
+  border: none;
+}
+input::placeholder {
+  color: #fff !important;
+  
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+
